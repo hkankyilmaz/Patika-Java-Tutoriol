@@ -1,3 +1,4 @@
+    import java.sql.SQLOutput;
     import java.util.Scanner;
 
     public class NotesAverage {
@@ -21,8 +22,10 @@
             geograpy = input.nextInt();
 
             double averageNotes = ( biology + math + history + chemistiry + geograpy  ) / 5 ;
+            boolean isPass = averageNotes >= 60;
 
             System.out.println("Your Average Note is : " + averageNotes);
+            System.out.println(isPass ? "You Pass the class" : "Failed the class");
 
         }
     }
