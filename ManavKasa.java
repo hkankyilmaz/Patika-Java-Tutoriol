@@ -7,7 +7,7 @@
 
             Scanner input = new Scanner(System.in);
             System.out.print("How Many Kilos of Pear? : ");
-            double pearKg = input.nextDouble();3
+            double pearKg = input.nextDouble();
             System.out.print("How Many Kilos of Apples? : ");
             double appleKg = input.nextDouble();
             System.out.print("How Many Kilos of Tomatoes? : ");
