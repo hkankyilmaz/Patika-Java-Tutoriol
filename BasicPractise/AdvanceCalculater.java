@@ -1,3 +1,5 @@
+package BasicPractise;
+
 import java.util.Scanner;
 
 public class AdvanceCalculater {

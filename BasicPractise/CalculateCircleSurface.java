@@ -1,4 +1,6 @@
-        import java.util.Scanner;
+package BasicPractise;
+
+import java.util.Scanner;
         public class CalculateCircleSurface {
             public  static  void  main(String[] args) {
                 double radius,angle;

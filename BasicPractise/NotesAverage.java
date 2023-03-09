@@ -1,4 +1,6 @@
-    import java.sql.SQLOutput;
+package BasicPractise;
+
+import java.sql.SQLOutput;
     import java.util.Scanner;
 
     public class NotesAverage {
